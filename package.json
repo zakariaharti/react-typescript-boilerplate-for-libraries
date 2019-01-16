@@ -1,7 +1,7 @@
 {
   "name": "react-typescript-boilerplate-for-libraries",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": "https://github.com/zakariaharti/react-typescript-boilerplate-for-libraries.git",
   "author": "zakariaharti <zakariya.developer@gmail.com>",
   "license": "MIT",
@@ -34,5 +34,16 @@
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
     "webpack-merge": "^4.2.1"
+  },
+  "scripts": {
+    "webpack": "webpack --config webpack.common.js",
+    "tslint": "tslint",
+    "build": "webpack --config webpack.prod.js",
+    "test": "jest --watch -o",
+    "test:coverage": "jest --coverage",
+    "storybook": "start-storybook -p 6006",
+    "start": "yarn storybook",
+    "build-storybook": "build-storybook -c .storybook -o docs",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'"
   }
 }
