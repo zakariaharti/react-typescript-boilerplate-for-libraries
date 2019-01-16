@@ -10,6 +10,8 @@
     "react": "^16.8.0-alpha.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "awesome-typescript-loader": "^5.2.1",
     "clean-webpack-plugin": "^1.0.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
