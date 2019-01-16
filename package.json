@@ -10,6 +10,11 @@
     "react": "^16.8.0-alpha.1"
   },
   "devDependencies": {
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "tslint-webpack-plugin": "^2.0.2",
+    "typescript": "^3.2.2",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
     "webpack-merge": "^4.2.1"
