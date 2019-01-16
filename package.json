@@ -5,5 +5,8 @@
   "repository": "https://github.com/zakariaharti/react-typescript-boilerplate-for-libraries.git",
   "author": "zakariaharti <zakariya.developer@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "react": "^16.8.0-alpha.1"
+  }
 }
