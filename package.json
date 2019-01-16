@@ -26,6 +26,7 @@
     "jest": "^23.6.0",
     "jest-enzyme": "^7.0.1",
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "react-dom": "^16.8.0-alpha.1",
     "ts-jest": "^23.10.5",
     "tslint": "^5.12.1",
     "tslint-webpack-plugin": "^2.0.2",
