@@ -8,5 +8,10 @@
   "private": false,
   "dependencies": {
     "react": "^16.8.0-alpha.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-merge": "^4.2.1"
   }
 }
